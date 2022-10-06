@@ -31,7 +31,7 @@ class CactusTest {
 
     @Test
     void calculateDailyWaterAmount() {
-        assert(cactus.calculateDailyWaterAmount() == 0.2);
-        assert(cactus.calculateDailyWaterAmount() != 0.4);
+        assert(cactus.calculateDailyWaterAmount() == 0.02);
+        assert(cactus.calculateDailyWaterAmount() != 0.04);
     }
 }

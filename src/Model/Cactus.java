@@ -4,7 +4,7 @@ package Model;
 public class Cactus extends Plant implements Waterable {
 
     private static final NutritionType NUTRITION_TYPE = NutritionType.MINERAL; //enum som konstant
-    private static final double BASE_WATER_AMOUNT = 0.2;
+    private static final double BASE_WATER_AMOUNT = 0.02;
     private double thornLength;
 
     public Cactus(String name, double height, double thornLength) {
