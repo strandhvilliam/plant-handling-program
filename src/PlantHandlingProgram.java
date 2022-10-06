@@ -13,8 +13,7 @@ public class PlantHandlingProgram{
         try {
             UIManager.setLookAndFeel(
                     UIManager.getSystemLookAndFeelClassName());
-        }
-        catch (UnsupportedLookAndFeelException | ClassNotFoundException | InstantiationException |
+        } catch (UnsupportedLookAndFeelException | ClassNotFoundException | InstantiationException |
                IllegalAccessException e) {
             e.printStackTrace();
         }
