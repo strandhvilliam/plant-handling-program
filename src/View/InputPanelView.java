@@ -1,7 +1,5 @@
 package View;
 
-import Model.PlantType;
-
 import javax.swing.*;
 import java.awt.*;
 

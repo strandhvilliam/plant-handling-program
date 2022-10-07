@@ -1,6 +1,6 @@
 package Model;
 
-public class ZZPlant extends Plant { //OBS, implemeneterar INTE Model.Waterable
+public class ZZPlant extends Plant { //OBS, implemeneterar INTE Waterable
 
 
     public ZZPlant(String name, double height) {

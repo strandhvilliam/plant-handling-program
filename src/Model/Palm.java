@@ -1,9 +1,5 @@
 package Model;
 
-import Model.NutritionType;
-import Model.Plant;
-import Model.Waterable;
-
 public class Palm extends Plant implements Waterable {
 
     private static final NutritionType NUTRITION_TYPE = NutritionType.TAP;

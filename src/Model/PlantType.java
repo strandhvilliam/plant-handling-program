@@ -6,7 +6,7 @@ public enum PlantType {
     CARNIVOROUS("Köttätande växt"),
     ZZ_PLANT("Garderobsblomma");
 
-    private String plantType;
+    private final String plantType;
 
     PlantType(String plantType) {
         this.plantType = plantType;
